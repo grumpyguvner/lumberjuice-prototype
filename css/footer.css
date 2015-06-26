@@ -1,0 +1,49 @@
+footer {
+    color: #fff;
+    margin-top: 30px;
+}
+footer .navbar-default {
+    padding-bottom: 30px;
+    border: none;
+}
+footer .navbar-default h5 {
+    color: #fff;
+    border-bottom: #fff solid 1px;
+    text-align: center;
+    font-size: 19px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+footer .navbar-default h5 .small {
+    color: #fff;
+    font-size: 14px;
+}
+footer .navbar-default li > a {
+    color: #fff;
+    font-size: 14px;
+    padding: 2px 0px;
+    border: none;
+    text-align: center;
+}
+footer .navbar-default li > a:hover {
+    color: #bdd09f;
+}
+footer .navbar-default .navbar-form {
+    margin-bottom: 15px;
+}
+
+footer .navbar-inverse {
+    font-family: "Merriweather";
+    font-size: 12px;
+}
+footer .navbar-inverse p {
+    margin-bottom: 0px;
+}
+footer .navbar-inverse span.fa {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+footer .navbar-inverse .navbar-nav > li > a {
+    color: #668d3c;
+    padding-right: 0px;
+}
