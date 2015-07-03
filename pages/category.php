@@ -18,5 +18,48 @@
                 </div>
             </div>
         </div>
-    </div>    
+    </div>
 </header>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6">
+                <p class="h4">VIEW FILTERS&nbsp;<input type="checkbox" name="filter-toggle"></p>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="filters col-xs-12 col-md-3">
+<?php
+                include 'components/filters.php';
+?>
+            </div>
+<?php
+    $products = array(
+         1 => array("href" => "/product", "image" => "product-1.png", "name" => "SANDQVIST CANVAS ORIGINAL BACKPACK - OSKAR / OLIVE", "price" => "£123.99"),
+         2 => array("href" => "/product", "image" => "product-2.png", "name" => "SANDQVIST CANVAS ORIGINAL BACKPACK - OSKAR / OLIVE", "price" => "£123.99"),
+         3 => array("href" => "/product", "image" => "product-3.png", "name" => "SANDQVIST CANVAS ORIGINAL BACKPACK - OSKAR / OLIVE", "price" => "£123.99", "pre-order" => true),
+         4 => array("href" => "/product", "image" => "product-4.png", "name" => "SANDQVIST CANVAS ORIGINAL BACKPACK - OSKAR / OLIVE", "price-old" => "£123.99", "price-new" => "£99.99"),
+         5 => array("href" => "/product", "image" => "image-missing.png", "name" => "SANDQVIST CANVAS ORIGINAL BACKPACK - OSKAR / OLIVE", "price" => "£123.99"),
+         6 => array("href" => "/product", "image" => "image-missing.png", "name" => "SANDQVIST CANVAS ORIGINAL BACKPACK - OSKAR / OLIVE", "price" => "£123.99"),
+         7 => array("href" => "/product", "image" => "image-missing.png", "name" => "SANDQVIST CANVAS ORIGINAL BACKPACK - OSKAR / OLIVE", "price" => "£123.99"),
+         8 => array("href" => "/product", "image" => "image-missing.png", "name" => "SANDQVIST CANVAS ORIGINAL BACKPACK - OSKAR / OLIVE", "price" => "£123.99"),
+         9 => array("href" => "/product", "image" => "image-missing.png", "name" => "SANDQVIST CANVAS ORIGINAL BACKPACK - OSKAR / OLIVE", "price" => "£123.99"),
+        10 => array("href" => "/product", "image" => "image-missing.png", "name" => "SANDQVIST CANVAS ORIGINAL BACKPACK - OSKAR / OLIVE", "price" => "£123.99"),
+        11 => array("href" => "/product", "image" => "image-missing.png", "name" => "SANDQVIST CANVAS ORIGINAL BACKPACK - OSKAR / OLIVE", "price" => "£123.99"),
+        12 => array("href" => "/product", "image" => "image-missing.png", "name" => "SANDQVIST CANVAS ORIGINAL BACKPACK - OSKAR / OLIVE", "price" => "£123.99"),
+        13 => array("href" => "/product", "image" => "image-missing.png", "name" => "SANDQVIST CANVAS ORIGINAL BACKPACK - OSKAR / OLIVE", "price" => "£123.99"),
+        14 => array("href" => "/product", "image" => "image-missing.png", "name" => "SANDQVIST CANVAS ORIGINAL BACKPACK - OSKAR / OLIVE", "price" => "£123.99"),
+        15 => array("href" => "/product", "image" => "image-missing.png", "name" => "SANDQVIST CANVAS ORIGINAL BACKPACK - OSKAR / OLIVE", "price" => "£123.99"),
+        16 => array("href" => "/product", "image" => "image-missing.png", "name" => "SANDQVIST CANVAS ORIGINAL BACKPACK - OSKAR / OLIVE", "price" => "£123.99"),
+    );
+    
+    foreach ($products as $product_id => $product) {
+        include 'components/product.php';
+    
+    }
+?>
+</section>

@@ -19,6 +19,8 @@
         <!-- Bootstrap -->
         <link href="bootstrap-3.3.5/dist/css/bootstrap.css" rel="stylesheet">
 <!--        <link href="bootstrap-3.3.5/dist/css/bootstrap-theme.css" rel="stylesheet"> -->
+        <link href="css/bootstrap-switch.css" rel="stylesheet">
+        <link href="css/jcarousel.connected-carousels.css" rel="stylesheet">
         <?php
         $file = "css/" . $page . ".css";
         if (file_exists($file)) {
@@ -62,6 +64,10 @@
     <script src="js/jquery-1.11.2.min.js"></script> 
     <!-- Include all compiled plugins (below), or include individual files as needed --> 
     <script src="bootstrap-3.3.5/dist/js/bootstrap.js"></script> 
+    <script src="js/bootstrap-switch.js"></script> 
+    <script src="js/jcarousel.js"></script> 
+    <script src="js/jcarousel.connected-carousels.js"></script> 
+    <script src="js/bootstrap-tabcollapse.js"></script> 
     <script src="js/custom.js"></script>
     <script src="js/navbar.js"></script>
     <?php

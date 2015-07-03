@@ -1,0 +1,118 @@
+.spinner {
+  width: 100px;
+}
+.spinner input {
+  text-align: right;
+}
+.input-group-btn-vertical {
+  position: relative;
+  white-space: nowrap;
+  width: 1%;
+  vertical-align: middle;
+  display: table-cell;
+}
+.input-group-btn-vertical > .btn {
+  display: block;
+  float: none;
+  width: 100%;
+  max-width: 100%;
+  padding: 8px;
+  margin-left: -1px;
+  position: relative;
+  border-radius: 0;
+}
+.input-group-btn-vertical > .btn:first-child {
+  border-top-right-radius: 4px;
+}
+.input-group-btn-vertical > .btn:last-child {
+  margin-top: -2px;
+  border-bottom-right-radius: 4px;
+}
+.input-group-btn-vertical i{
+  position: absolute;
+  top: 0;
+  left: 4px;
+}
+
+.rating > span.active:before {
+   content: "\2605";
+   position: absolute;
+   color: yellow;
+}
+
+img.product-flag {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0px;
+    left: 50%;
+    margin-left: -20px;
+}
+.related-to a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #777;
+    text-align: center;
+}
+.related-to a:hover {
+    text-decoration: none;
+    color: #777;
+}
+.related-to .price {
+    font-weight: 700;
+    font-size: 20px;
+}
+.related-to .price-old {
+    color: #ccc;
+    text-decoration: line-through;
+    margin-right: 8px;
+}
+
+.carousel-control {
+    color: #ccc;
+    text-shadow: none;
+}
+.carousel-control:hover {
+    color: #333;
+}
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+}
+/* Indicators list style */
+.carousel-indicators {
+    position: relative;
+    width: 100%;
+    margin-left: 0px;
+    left: 0px;
+}
+/* Indicators list style */
+.carousel-indicators li {
+    border: medium none;
+    border-radius: 0;
+    float: left;
+    height: 100px;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 5px !important;
+    margin-top: 0;
+    width: 100px;
+}
+.carousel-indicators li.active {
+}
+/* Indicators images style */
+.carousel-indicators img {
+    border: 2px solid #FFFFFF;
+    float: left;
+    height: 100px;
+    left: 0;
+    width: 100px;
+}
+/* Indicators active image style */
+.carousel-indicators .active img {
+    border: 2px solid #428BCA;
+    opacity: 0.7;
+}

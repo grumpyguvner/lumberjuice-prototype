@@ -11,3 +11,76 @@ div.image .content {
     width: 100%;
     height: 100%;
 }
+div.filters {
+    display: none;
+    background-color: #f1f4f0;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 15px;
+}
+div.filters h5 {
+    padding-bottom: 4px;
+    border-bottom: 1px #aaa solid;
+}
+div.filters .btn {
+    width: 100%;
+}
+div.filters .btn-default {
+    color: #666;
+    background-color: #e7eae6;
+    border-color: #e7eae6;
+}
+div.filters .btn-default:hover {
+    color: #fff;
+    background-color: #666;
+    border-color: #666;
+}
+div.filters .btn-color {
+    height: 24px;
+    width: 24px;
+    margin-right: 14px;
+    margin-bottom: 14px;
+    overflow: hidden;
+}
+div.filters .btn-filter {
+    height: 45px;
+    width: 45px;
+    padding: 12px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    overflow: hidden;
+}
+div.filters ul {
+    list-style: outside none none;
+    padding-left: 0px;
+    text-align: left;
+}
+img.product-flag {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 0px;
+    left: 50%;
+    margin-left: -35px;
+}
+main a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #777;
+    text-align: center;
+}
+main a:hover {
+    text-decoration: none;
+    color: #777;
+}
+.price {
+    font-weight: 700;
+    font-size: 20px;
+}
+.price-old {
+    color: #ccc;
+    text-decoration: line-through;
+    margin-right: 8px;
+}
